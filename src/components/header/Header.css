@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto&display=swap');
+
+:root{
+    --azuloclaro: #48D6ED;
+    --azuloscuro: #337AB7;
+    --azulnegro: #303342;
+    --azul: #0058A4;
+    --negro: #333333;
+    --negro2: #000;
+    --negro3: #161719;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Marcellus', serif;
+        color: white;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+    }
+    
+    nav .logo{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--negro3);
+        padding: 1rem;
+        z-index: 5;
+    }
+
+    nav .logo img{
+        height: 2rem;
+    }
+
+    nav .logo i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        font-size: 1.7rem;
+    }
+    
+    nav .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(1, 10, 52, 0.838);
+        width: 100%;
+        transform: translateY(-130%);
+        transition: ease 0.5s;
+    }
+
+    nav .menu-spread{
+        transform: translateY(0%);
+    }
+
+    nav .menu a{
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    nav .menu a:hover{
+        background-color: #0B3860;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #iniciar-sesion{
+        background-color: rgb(0, 0, 0, 0);
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu-hr{
+        display: block;
+        width: 90%;
+        background-color: var(--blanco);
+        margin: auto;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--negro3);
+        font-family: 'Marcellus', serif;
+        font-size: 1.3em;
+        color: white;
+        padding: 1rem;
+    }
+
+    nav .logo i{
+        display: none;
+    }
+
+    nav .logo img{
+        height: 3rem;
+    }
+
+    nav .menu{
+        margin-right: 1rem;
+    }
+
+    nav .menu a{
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    #iniciar-sesion{
+        background-color: var(--azul);
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem 1rem;
+    }
+
+    .menu-hr{
+        display: none;
+    }
+}
+

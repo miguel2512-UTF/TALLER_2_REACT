@@ -1,0 +1,64 @@
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    .ubicanos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .ubicanos h2{
+        font-size: 28px;
+    }
+    
+    .ubicanos h3{
+        font-size: 13px;
+        font-weight: normal;
+        padding: 1.5rem 0rem 0.2rem 0rem; 
+        border-bottom: solid 1px var(--azul);
+        text-align: center;
+    }
+    
+    .ubicanos p{
+        margin-top: 0.6rem;
+        font-family: Times;
+        font-size: 15px;
+    }
+    
+    .ubicanos iframe{
+        width: 97%;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .ubicanos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5rem 1rem;
+    }
+    
+    .ubicanos h2{
+        font-size: 40px;
+    }
+    
+    .ubicanos h3{
+        font-size: 25px;
+        font-weight: normal;
+        padding: 0rem 1rem;
+        margin: 1rem;
+        border-bottom: solid 1px var(--azul);
+    }
+    
+    .ubicanos p{
+        font-family: Times;
+        font-size: 25px;
+    }
+    
+    .ubicanos iframe{
+        width: 97%;
+        margin-top: 2rem;
+    }
+}

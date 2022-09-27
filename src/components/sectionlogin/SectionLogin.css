@@ -1,0 +1,96 @@
+.section-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(login-fondo.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 122, 183, 0.80);
+    width: 35%;
+    border-radius: 5px;
+}
+
+.form-logo{
+    background-image: url(wave_login_blanco.png);
+    background-size: cover;
+    padding: 1.5rem;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 385px;
+}
+
+.form-logo img{
+    width: 40%;
+    margin-bottom: 3rem;
+}
+
+.form-user{
+    background-color: rgb(156, 39, 89);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0.5rem;
+    margin-top: -1.5rem;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.form-login form{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4rem;
+    color: var(--blanco);
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+}
+
+.form-login form label{
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.form-login form input{
+    padding: 0.3rem;
+    outline: none;
+    border: none;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.form-login form button{
+    margin-top: 2.5rem;
+    font-size: 18px;
+    border: none;
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    font-family: Marcellus;
+    background-color: var(--negro2);
+    border-radius: 2px;
+}
+
+.form-login form a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-login form p{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    align-self: center;
+}
+
+.form-login form p a{
+    color: black;
+    text-decoration: none;
+}

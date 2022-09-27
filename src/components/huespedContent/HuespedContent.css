@@ -1,0 +1,149 @@
+.add-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    height: 100%;
+    max-height: 90%;
+    width: 100%;
+    max-width: 90%;
+    background-color: rgb(239, 240, 240,0.85);
+    /* margin: 1.5rem 2.5rem; */
+    border-radius: 5px;
+}
+
+.form h1{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.form-body{
+    margin: 0rem 2rem;
+    display: flex;
+}
+
+.form-body label{
+    margin-top: 0.7rem;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.form-body input{
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.form-file[type=file]{
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.form-body select{
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.form-genero{
+    display: flex;
+    padding: 0.3rem 0rem;
+    margin-bottom: 0.3rem;
+}
+
+.form-genero input{
+    margin-right: 0.1rem;
+}
+
+.form-genero p{
+    margin-right: 1.5rem;
+}
+
+.form-body-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-body-1 input{
+    margin-right: 1.5rem;
+}
+
+.form-body-1 select{
+    margin-right: 1.5rem;
+}
+
+.form-body-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.form-footer p{
+    font-weight: bold;
+}
+
+.form-footer button{
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem;
+    width: 195px;
+    color: white;
+    font-family: Marcellus;
+    background-color: var(--negro3);
+    border-radius: 2px;
+}
+
+.form-footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.form-footer button a{
+    color: white;
+    text-decoration: none;
+}  
+
+.modal-contenido{
+    background-color:aqua;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+}
+
+.modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+}
+
+#miModal:target{
+    opacity:1;
+    pointer-events:auto;
+}

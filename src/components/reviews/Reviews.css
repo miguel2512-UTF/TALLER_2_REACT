@@ -1,0 +1,103 @@
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    .reviews{
+        color: var(--blanco);
+    }
+    
+    .reviews h1{
+        font-size: 25px;
+        font-weight: bold;
+        background-color: var(--negro3);
+        text-align: center;
+        padding: 1rem 1rem 5rem 1rem;
+    }
+    
+    .reviews-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-opinion{
+        width: 80%;
+        background-color: var(--azuloscuro);
+        margin-bottom: 4.5rem;
+        margin-top: -3rem;
+    }
+    
+    .opinion-user{
+        margin-top: -45px;
+    }
+    
+    .opinion-user h5{
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0rem 1rem 0rem 5rem;
+    }
+    
+    .card-opinion img{
+        width: 45px;
+        border-radius: 100%;
+        margin: 1rem 0 0 1.5rem;
+    }
+    
+    .puntuacion{
+        margin: 0rem 1rem 0rem 5rem;
+    }
+    
+    .card-opinion p{
+        margin: 1.5rem;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .reviews{
+        color: var(--blanco);
+        padding-bottom: 8rem;
+    }
+    
+    .reviews h1{
+        font-size: 40px;
+        font-weight: normal;
+        background-color: var(--negro3);
+        text-align: center;
+        padding: 3rem 0rem 8rem 0rem;
+    }
+    
+    .reviews-content{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .card-opinion{
+        margin-top: -50px;
+        width: 350px;
+        padding: 1rem;
+        background-color: var(--azuloscuro);
+    }
+    
+    .opinion-user{
+        margin-top: -65px;
+    }
+    
+    .opinion-user h5{
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0rem 5rem;
+    }
+    
+    .card-opinion img{
+        width: 60px;
+        border-radius: 100%;
+        margin: 0.5rem;
+    }
+    
+    .puntuacion{
+        margin: 0rem 5rem;
+    }
+    
+    .card-opinion p{
+        margin: 0.5rem;
+        margin-top: 50px;
+    }
+}
