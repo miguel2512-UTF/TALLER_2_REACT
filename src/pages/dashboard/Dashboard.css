@@ -1,0 +1,564 @@
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    .dashboard{
+        display: flex;
+        height: 100vh;
+    }
+    
+    .menu-dashboard{
+        height: 919px;
+        width: 15%;
+        font-family: Marcellus;
+        background-color: red;
+    }
+    
+    .menu-logo{
+        height: 11%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url(dashboard-header.jpg);
+        background-size: cover;
+        color: var(--blanco);
+    }
+    
+    .logo-hot{
+        width: 35px;
+    }
+
+    .user-profile{
+        width: 30px;
+        border-radius: 3px;
+    }
+
+    .menu-logo h1{
+        display: none;
+    }
+    
+    .user-name{
+        display: none;
+    }
+    
+    .user-name h2{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .user-name h3{
+        font-size: 9px;
+        font-weight: normal;
+    }
+    
+    .menu-option{
+        height: 82.9%;
+        display: flex;
+        flex-direction: column;
+        background-color: #303342;
+        padding-top: 3.5rem;
+    }
+    
+    .option{
+        display: flex;
+        justify-content: center;
+        padding: 0.3rem;
+        margin: 0.5rem 0rem;
+        color: white;
+    }
+    
+    .option:hover{
+        background-color: var(--azuloscuro);
+    }
+    
+    .option p{
+        display: none;
+    }
+    
+    .option i{
+        font-size: 1.2rem;
+    }
+    
+    .option-2{
+        padding: 0.1rem;
+    }
+    
+    .option-2 i{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+    
+    .cerrar-sesion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        margin: auto 0;
+        background-color: #3B3E4F;
+        color: var(--blanco);
+    }
+    
+    .cerrar-sesion p{
+        display: none;
+    }
+    
+    .cerrar-sesion i{
+        font-size: 1.5rem;
+    }
+    
+    .cerrar-sesion a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .dashboard-content{
+        width: 85%;
+        height: 919px;
+        background-image: url(dashboard-fondo.avif);
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    
+    .content-dash{
+        padding: 0.7rem;
+        backdrop-filter: brightness(50%);
+    }
+    
+    .info-user{
+        display: flex;
+        flex-direction: column;
+        /* backdrop-filter: blur(3px); */
+        background-color: rgb(239, 240, 240,0.85);
+        border-radius: 5px;
+    }
+    
+    .section-foto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5rem 1rem;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+    }
+    
+    .section-foto h1{
+        font-family: Marcellus;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 1rem;
+    }
+
+    .section-foto img{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .foto-options{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        background-color: #337AB7;
+        font-size: 1.9rem;
+        margin-top: 0.5rem;
+    }
+    
+    .foto-options i{
+        color: white;
+        margin: 0.2rem 0.8rem;
+    }
+    
+    .fa-upload{
+        display: none;
+    }
+
+    .fa-file-arrow-up{
+        display: none;
+    }
+
+    .fa-download{
+        font-size: 1rem;
+    }
+    
+    .section-foto button{
+        display: none;
+    }
+    
+    .form-usuario{
+        width: 100%;
+        margin: 0rem 1rem;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+    }
+    
+    .form-usuario h1{
+        display: none;
+    }
+    
+    .form-usuario form{
+        font-weight: 550;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-info{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-usuario label{
+        margin-top: 0.7rem;
+        margin-bottom: 0.3rem;
+        font-size: 12px;
+    }
+    
+    .form-usuario input{
+        margin-right: 1.5rem;
+        padding: 0.3rem 0.3rem;
+        font-size: 12px;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+    }
+    
+    .form-usuario button{
+        margin-top: 1rem;
+        margin-bottom: 0.7rem;
+        font-size: 14px;
+        border: none;
+        padding: 0.4rem;
+        width: 125px;
+        color: white;
+        font-family: Marcellus;
+        background-color: var(--negro3);
+        border-radius: 2px;
+    }
+    
+    .form-info-1{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .form-info-1 button{
+        display: none;
+    }
+    
+    .form-info-2{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    
+    .form-password{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-password-1{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .form-password-1 button{
+        display: none;
+    }
+
+    .form-password-2{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .dashboard{
+        display: flex;
+        height: 100vh;
+    }
+    
+    .menu-dashboard{
+        height: 100%;
+        width: 18%;
+        font-family: Marcellus;
+    }
+    
+    .menu-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 30%;
+        background-image: url(dashboard-header.jpg);
+        background-size: cover;
+        color: var(--blanco);
+    }
+    
+    .logo-hot{
+        display: none;
+    }
+
+    .user-profile{
+        display: none;
+    }
+
+    .menu-logo h1 img{
+        width: 50px;
+    }
+    
+    .menu-logo h1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 1.5rem 1.5rem;
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 70px;
+    }
+    
+    .user-name{
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .user-name h2{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    .user-name h3{
+        font-size: 9px;
+        font-weight: normal;
+    }
+    
+    .menu-option{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70%;
+        background-color: #303342;
+    }
+    
+    .option{
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0rem;
+        margin-right: 0.5rem;
+        color: var(--blanco);
+    }
+    
+    .option:hover{
+        background-color: var(--azuloscuro);
+    }
+    
+    .option p{
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    .option i{
+        margin-right: 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .option-2{
+        padding: 0.3rem 1rem;
+    }
+    
+    .option-2 i{
+        font-size: 1.9rem;
+    }
+    
+    .cerrar-sesion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        margin-left: 10px;
+        background-color: #3B3E4F;
+        color: var(--blanco);
+    }
+    
+    .cerrar-sesion p{
+        font-size: 14px;
+        margin-right: 25px;
+    }
+    
+    .cerrar-sesion i{
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+    
+    .cerrar-sesion a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .dashboard-content{
+        width: 95%;
+        background-image: url(dashboard-fondo.avif);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .content-dash{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        /* padding: 1.75rem 2rem; */
+        backdrop-filter: brightness(50%);
+    }
+    
+    .info-user{
+        height: 100%;
+        max-height: 91%;
+        width: 100%;
+        max-width: 93%;
+        display: flex;
+        backdrop-filter: blur(3px);
+        background-color: rgb(239, 240, 240,0.85);
+        border-radius: 5px;
+    }
+    
+    .section-foto{
+        margin: 4.7rem 1rem 0rem 3rem;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+    }
+    
+    .section-foto h1{
+        display: none;
+    }
+
+    .section-foto img{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .foto-options{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        background-color: #337AB7;
+        font-size: 1.9rem;
+        margin-top: 0.1rem;
+    }
+    
+    .foto-options i{
+        color: white;
+        margin: 0.2rem 0.8rem;
+    }
+    
+    .fa-upload{
+        font-size: 1.4rem;
+    }
+
+    .fa-download{
+        display: none;
+    }
+    
+    .section-foto button{
+        margin-top: 1.2rem;
+        width: 130px;
+        border: none;
+        color: white;
+        background-color: var(--negro);
+        font-family: Marcellus;
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+    
+    .form-usuario{
+        width: 75%;
+        margin-right: 1rem;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
+    }
+    
+    .form-usuario h1{
+        padding-top: 1rem;
+        font-family: Marcellus;
+        font-size: 37px;
+        font-weight: normal;
+    }
+    
+    .form-usuario form{
+        font-weight: 550;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-info{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .form-usuario label{
+        margin-top: 0.7rem;
+        margin-bottom: 0.3rem;
+        font-size: 1rem;
+    }
+    
+    .form-usuario input{
+        margin-right: 1.5rem;
+        padding: 0.3rem 0.3rem;
+        font-size: 1rem;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+    }
+    
+    .form-usuario button{
+        margin-top: 1rem;
+        margin-bottom: 0.7rem;
+        font-size: 1rem;
+        border: none;
+        padding: 0.5rem;
+        width: 195px;
+        color: white;
+        font-family: Marcellus;
+        background-color: var(--negro3);
+        border-radius: 2px;
+    }
+    
+    .form-info-1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .form-info-2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .form-info-2 button{
+        display: none;
+    }
+    
+    .form-password{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .form-password-1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .form-password-2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .form-password-2 button{
+        display: none;
+    }
+}
