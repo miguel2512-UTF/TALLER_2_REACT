@@ -1,5 +1,6 @@
 import './SectionLogin.css';
 import logo from "./Hotelia horizontal negro.svg";
+import { Link } from "react-router-dom";
 
 function sectionLogin() {
   return (
@@ -16,8 +17,8 @@ function sectionLogin() {
                 <input type="text" />
                 <label for="">Contraseña</label>
                 <input type="password" />
-                <button type="submit"><a href="dashboard.html">Ingresar</a></button>
-                <p>¿No tienes una cuenta? <a href="huesped-add.html">Registrate aquí.</a></p>
+                <button type="submit"><Link to="/dashboard"><a>Ingresar</a></Link></button>
+                <p>¿No tienes una cuenta? <Link to="/huesped"><a href="huesped-add.html">Registrate aquí.</a></Link></p>
             </form>
         </div>
     </section>

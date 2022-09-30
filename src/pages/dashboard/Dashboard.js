@@ -2,6 +2,7 @@ import "./Dashboard.css";
 import campana from "./hotelia campana.svg";
 import userprofile from "./user-profile.png";
 import user from "./user.png";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
@@ -38,7 +39,7 @@ function Dashboard() {
                 
                 <div class="cerrar-sesion">
                     <a href="../index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
-                    <a href="../index.html"><p>Cerrar sesión</p></a>
+                    <Link to="/"><a href="../index.html"><p>Cerrar sesión</p></a></Link>
                 </div>
             </div>
         </div>
