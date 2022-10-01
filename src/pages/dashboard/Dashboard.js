@@ -38,7 +38,7 @@ function Dashboard() {
                 </div>
                 
                 <div class="cerrar-sesion">
-                    <a href="../index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                    <Link to="/"><a href="../index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></Link>
                     <Link to="/"><a href="../index.html"><p>Cerrar sesión</p></a></Link>
                 </div>
             </div>

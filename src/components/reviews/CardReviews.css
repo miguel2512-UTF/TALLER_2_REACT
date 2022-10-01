@@ -1,0 +1,33 @@
+@media screen and (min-width: 1024px) {
+    .card-opinion{
+        margin-top: -50px;
+        width: 350px;
+        padding: 1rem;
+        background-color: var(--azuloscuro);
+    }
+    
+    .opinion-user{
+        margin-top: -65px;
+    }
+    
+    .opinion-user h5{
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0rem 5rem;
+    }
+    
+    .card-opinion img{
+        width: 60px;
+        border-radius: 100%;
+        margin: 0.5rem;
+    }
+    
+    .puntuacion{
+        margin: 0rem 5rem;
+    }
+    
+    .card-opinion p{
+        margin: 0.5rem;
+        margin-top: 50px;
+    }
+}

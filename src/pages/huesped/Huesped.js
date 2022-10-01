@@ -60,10 +60,25 @@ function Huesped() {
         </section>
         
         <div id="miModal" class="modal">
-            <div class="modal-contenido">
-                <a href="#">X</a>
-                <h2>Mi primer Modal</h2>
-                <p>Este es mi primera ventana modal sin utilizar JavaScript.</p>
+                <div class="modal-contenido">
+                    <h2>Términos y Condiciones</h2>
+                    <p>Estos Términos del Servicio reflejan la forma
+                        de trabajar de Google como empresa, las
+                        leyes por las que nos regimos y determinados
+                        aspectos que siempre hemos creido que son
+                        ciertos. Por ello, estos Términos del Servicio
+                        ayudan a definir la relación que tiene Google
+                        contigo cuando interactúas con nuestros
+                        servicios. Por ejemplo, estos términoss
+                        incluyen las siguientes secciones: <br/><br/>
+                        Qué puedes esperar de nosotros, donde se
+                        describe cómo proporcionamos y
+                        desarrollamos nuestros servicios.
+                        Lo que esperamos de ti, donde se establecen
+                        ciertas reglas para utilizar nuestros servicios.</p>
+                <div class="modal-cerrar">
+                    <a class="enviar" href="#">Aceptar</a>
+                </div> 
             </div>  
         </div></>
     );
